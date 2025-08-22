@@ -1,0 +1,38 @@
+# CODEOWNERS file for storage-store-790
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-billing @Armor-test/dept-logging @Armor-test/squad-ux
+
+# Directory ownership
+/static/ @Armor-test/squad-performance @Armor-test/dept-reporting @Armor-test/squad-mobile
+/tools/ @Armor-test/dept-data @Armor-test/squad-qa
+/views/ @Armor-test/team-core @Armor-test/unit-devops @Armor-test/squad-mobile
+/auth/ @Armor-test/squad-search @Armor-test/dept-api
+/third_party/ @Armor-test/team-reporting @Armor-test/dept-test @Armor-test/squad-apps
+/internal/ @Armor-test/squad-cloud @Armor-test/grp-reporting
+/examples/ @Armor-test/dept-api @Armor-test/team-security
+/models/ @Armor-test/squad-database @Armor-test/dept-notifications
+/migrations/ @Armor-test/squad-database @Armor-test/dept-billing @Armor-test/dept-reporting
+/extensions/ @Armor-test/unit-devops @Armor-test/squad-cache @Armor-test/dept-billing
+/docs/ @Armor-test/dept-reliability @Armor-test/dept-automation
+/test/ @Armor-test/dept-billing @Armor-test/squad-research @Armor-test/team-governance
+/deploy/ @Armor-test/squad-frontend @Armor-test/squad-api
+/data/ @Armor-test/squad-performance @Armor-test/squad-payments @Armor-test/team-logging
+/pkg/ @Armor-test/team-reporting @Armor-test/squad-cloud @Armor-test/grp-payments
+
+# File type ownership
+*.gradle @Armor-test/squad-ml @Armor-test/team-core
+*.config @Armor-test/dept-release @Armor-test/dept-test
+*.java @Armor-test/squad-ml @Armor-test/squad-apps @Armor-test/squad-product
+*.ts @Armor-test/squad-cloud @Armor-test/squad-qa @Armor-test/dept-api
+*.ini @Armor-test/unit-governance @Armor-test/squad-qa
+*.xml @Armor-test/grp-search @Armor-test/squad-api
+*.scss @Armor-test/dept-security @Armor-test/dept-notifications @Armor-test/squad-tooling
+*.tf @Armor-test/grp-storage @Armor-test/dept-api @Armor-test/squad-cloud
+*.md @Armor-test/dept-automation @Armor-test/squad-research
+*.scala @Armor-test/unit-devops @Armor-test/grp-payments
+*.h @Armor-test/dept-logging @Armor-test/grp-storage @Armor-test/dept-automation
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
